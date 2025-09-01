@@ -2,6 +2,7 @@
 import api from "./api";
 
 export interface Task {
+  description: ReactNode;
   _id: string;
   title: string;
   status?: string;
